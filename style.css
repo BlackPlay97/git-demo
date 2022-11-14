@@ -1,0 +1,71 @@
+#head {
+    text-align: center;
+}
+
+#level {
+    margin-bottom: 15px;
+}
+
+button {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#board {
+    margin-top: 20px;
+    position: absolute;
+    left: 38%;
+    border: 3px solid;
+    width: 468px;
+    height: 468px;
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+#select {
+    border: 3px solid;
+    position: absolute;
+    top: 730px;
+    left: 38%;
+    width: 468px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile,.numSelect {
+    border: 1px solid lightgray;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+.numSelect {
+    position: relative;
+    border: 1px solid;
+}
+
+.rightLine {
+    border-right: 1px solid;
+}
+
+.bottomLine {
+    border-bottom: 1px solid;
+}
+
+.tileBlock{
+    background-color: rgb(233, 227, 227);
+}
+
+.select-number{
+    background-color: gray;
+}
+
+#err{
+    color: red;
+    font-size: 30px;
+    font-weight: 900;
+}
